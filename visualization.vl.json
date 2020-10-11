@@ -1,47 +1,20 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-  "description": "A simple pie chart with embedded data.",
-  "data": {
-    "values": [
-      {
-        "category": 1,
-        "value": 4
-      },
-      {
-        "category": 2,
-        "value": 6
-      },
-      {
-        "category": 3,
-        "value": 10
-      },
-      {
-        "category": 4,
-        "value": 3
-      },
-      {
-        "category": 5,
-        "value": 7
-      },
-      {
-        "category": 6,
-        "value": 8
-      }
-    ]
-  },
-  "mark": "arc",
+  "data": {"url": "data/movies.json"},
+  "transform": [{
+    "sort": [{"field": "IMDB Rating"}],
+    "window": [{"op": "count", "field": "count", "as": "Cumulative Count"}],
+    "frame": [null, 0]
+  }],
+  "mark": "area",
   "encoding": {
-    "theta": {
-      "field": "value",
+    "x": {
+      "field": "IMDB Rating",
       "type": "quantitative"
     },
-    "color": {
-      "field": "category",
-      "type": "nominal"
+    "y": {
+      "field": "Cumulative Count",
+      "type": "quantitative"
     }
-  },
-  "view": {
-    "stroke": null
-  },
-  "config": {}
+  }
 }
