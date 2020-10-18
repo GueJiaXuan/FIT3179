@@ -29,7 +29,7 @@
       "scale": {
  "type": "threshold",
  "domain": [39, 78, 117],
- "range": ["#98FB98", "#1E90FF", "#FFFF00", "#FF0000"]
+ "range": ["#1E90FF","#98FB98", "#FFFF00", "#FF0000"]
  }
 
     },
