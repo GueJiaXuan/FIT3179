@@ -8,14 +8,31 @@
   <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
 </head>
 <body>
+  
+<h1> Happiness Ranking around the world </h1>
 
+<h2> Ranking countries by Happiness around the world </h2>
+  
 <div id="choropleth"></div>
+ 
+<h2> Extent to which freedom of a Country affects Happiness score, by country </h2>
 
+<div id="scatterplot"></div> 
+  
 <script type="text/javascript">
+  
   var spec2 = "js/choropleth.vl.json";
+  
   vegaEmbed('#choropleth', spec2).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
+  
+  var spec3 = "js/scatter_plot_interactive.vg.json"
+  
+  vegaEmbed('#scatterplot', spec2).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+  
 </script>
 </body>
 </html>
