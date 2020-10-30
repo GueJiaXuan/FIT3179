@@ -1,0 +1,39 @@
+﻿country ,country_count,,position,position_count,,team,team_count,img
+United States of America,323,,C,48,,Atlanta Hawks,12,data/hawks.jpg
+Angola,1,,C-F,6,,Boston Celtics,14,data/celtics.png
+Australia,9,,F,138,,Brooklyn Nets,14,data/nets.png
+Austria,1,,F-C,36,,Charlotte Hornets,10,data/hornets.png
+Bosnia and Herzegovina,2,,F-G,13,,Chicago Bulls,15,data/bulls.png
+Brazil,2,,G,169,,Cleveland Cavaliers,12,data/cavaliers.png
+Cameroom,2,,G-F,19,,Dallas Mavericks,15,data/mavericks.png
+Canada,15,,,,,Denver Nuggets,13,data/nuggets.png
+Croatia,6,,,,,Detroit Pistons,14,data/pistons.png
+Czechia,1,,,,,Golden State Warriors,9,data/warriors.png
+Democratic Republic of the Congo,2,,,,,Houston Rockets,13,data/rockets.png
+Dominican Republic,2,,,,,Indiana Pacers,15,data/pacers.png
+Egypt,1,,,,,Los Angeles Clippers,14,data/clippers.png
+Finland,1,,,,,Los Angeles Lakers,15,data/lakers.png
+France,8,,,,,Memphis Grizzlies,13,data/grizzlies.png
+Georgia,1,,,,,Miami Heat,12,data/heat.png
+Germany,6,,,,,Milwaukee Bucks,17,data/bucks.png
+Greece,3,,,,,Minnesota Timberwolves,13,data/timberwolves.png
+Haiti,1,,,,,New Orleans Pelicans,15,data/pelicans.png
+Israel,1,,,,,New York Knicks,15,data/knicks.png
+Italy,4,,,,,Not in a Team,23,data/nba.png
+Japan,1,,,,,Oklahoma City Thunder,13,data/thunder.png
+Latvia,3,,,,,Orlando Magic,15,data/magic.png
+Lithuania,2,,,,,Philadelphia 76ers,14,data/76ers.png
+Mali,1,,,,,Phoenix Suns,16,data/suns.png
+Montenegro,1,,,,,Portland Trail Blazers,12,data/blazers.png
+New Zealand,1,,,,,Sacramento Kings,14,data/kings.png
+Nigeria,3,,,,,San Antonio Spurs,14,data/spurs.png
+Philippines,1,,,,,Toronto Raptors,13,data/raptors.png
+Puerto Rico,1,,,,,Utah Jazz,12,data/jazz.png
+Senegal,1,,,,,Washington Wizards,13,data/wizards.png
+Serbia,5,,,,,,,
+Slovenia,2,,,,,,,
+Spain,6,,,,,,,
+Switzerland,1,,,,,,,
+The Bahamas,2,,,,,,,
+Turkey,4,,,,,,,
+Ukraine,2,,,,,,,
