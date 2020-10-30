@@ -1,0 +1,170 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "width": "container",
+  "height": 250,
+  "data": {
+    "values":[
+ {
+   "team": "Atlanta Hawks",
+   "team_count": 12,
+   "img": "data/hawks.jpg"
+ },
+ {
+   "team": "Boston Celtics",
+   "team_count": 14,
+   "img": "data/celtics.png"
+ },
+ {
+   "team": "Brooklyn Nets",
+   "team_count": 14,
+   "img": "data/nets.png"
+ },
+ {
+   "team": "Charlotte Hornets",
+   "team_count": 10,
+   "img": "data/hornets.png"
+ },
+ {
+   "team": "Chicago Bulls",
+   "team_count": 15,
+   "img": "data/bulls.png"
+ },
+ {
+   "team": "Cleveland Cavaliers",
+   "team_count": 12,
+   "img": "data/cavaliers.png"
+ },
+ {
+   "team": "Dallas Mavericks",
+   "team_count": 15,
+   "img": "data/mavericks.png"
+ },
+ {
+   "team": "Denver Nuggets",
+   "team_count": 13,
+   "img": "data/nuggets.png"
+ },
+ {
+   "team": "Detroit Pistons",
+   "team_count": 14,
+   "img": "data/pistons.png"
+ },
+ {
+   "team": "Golden State Warriors",
+   "team_count": 9,
+   "img": "data/warriors.png"
+ },
+ {
+   "team": "Houston Rockets",
+   "team_count": 13,
+   "img": "data/rockets.png"
+ },
+ {
+   "team": "Indiana Pacers",
+   "team_count": 15,
+   "img": "data/pacers.png"
+ },
+ {
+   "team": "Los Angeles Clippers",
+   "team_count": 14,
+   "img": "data/clippers.png"
+ },
+ {
+   "team": "Los Angeles Lakers",
+   "team_count": 15,
+   "img": "data/lakers.png"
+ },
+ {
+   "team": "Memphis Grizzlies",
+   "team_count": 13,
+   "img": "data/grizzlies.png"
+ },
+ {
+   "team": "Miami Heat",
+   "team_count": 12,
+   "img": "data/heat.png"
+ },
+ {
+   "team": "Milwaukee Bucks",
+   "team_count": 17,
+   "img": "data/bucks.png"
+ },
+ {
+   "team": "Minnesota Timberwolves",
+   "team_count": 13,
+   "img": "data/timberwolves.png"
+ },
+ {
+   "team": "New Orleans Pelicans",
+   "team_count": 15,
+   "img": "data/pelicans.png"
+ },
+ {
+   "team": "New York Knicks",
+   "team_count": 15,
+   "img": "data/knicks.png"
+ },
+ {
+   "team": "Not in a Team",
+   "team_count": 23,
+   "img": "data/nba.png"
+ },
+ {
+   "team": "Oklahoma City Thunder",
+   "team_count": 13,
+   "img": "data/thunder.png"
+ },
+ {
+   "team": "Orlando Magic",
+   "team_count": 15,
+   "img": "data/magic.png"
+ },
+ {
+   "team": "Philadelphia 76ers",
+   "team_count": 14,
+   "img": "data/76ers.png"
+ },
+ {
+   "team": "Phoenix Suns",
+   "team_count": 16,
+   "img": "data/suns.png"
+ },
+ {
+   "team": "Portland Trail Blazers",
+   "team_count": 12,
+   "img": "data/blazers.png"
+ },
+ {
+   "team": "Sacramento Kings",
+   "team_count": 14,
+   "img": "data/kings.png"
+ },
+ {
+   "team": "San Antonio Spurs",
+   "team_count": 14,
+   "img": "data/spurs.png"
+ },
+ {
+   "team": "Toronto Raptors",
+   "team_count": 13,
+   "img": "data/raptors.png"
+ },
+ {
+   "team": "Utah Jazz",
+   "team_count": 12,
+   "img": "data/jazz.png"
+ },
+ {
+   "team": "Washington Wizards",
+   "team_count": 13,
+   "img": "data/wizards.png"
+ }
+]
+  },
+  "mark": {"type": "image", "width": 50, "height": 50},
+  "encoding": {
+    "x": {"field": "team", "type": "nominal"},
+    "y": {"field": "team_count", "type": "quantitative"},
+    "url":{"field":"img", "type": "nominal"}
+  }
+}
