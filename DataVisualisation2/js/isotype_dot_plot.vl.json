@@ -18,8 +18,8 @@
   "encoding": {
     "x": {"field": "rank", "type": "ordinal", "axis": null},
     "y": {"field": "salary_rounded", "type": "nominal", "axis": null, "sort": null},
-    "row": {"field": "full_name", "header": {"title": ""}},
+    "row": {"field": "full_name", "header": {"title": "Top Earning NBA Players"}},
     "text": {"field": "emoji", "type": "nominal"},
-    "size": {"value": 20}
+    "size": {"value": 10}
   }
 } 
