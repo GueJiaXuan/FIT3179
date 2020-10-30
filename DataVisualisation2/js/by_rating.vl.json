@@ -5,7 +5,7 @@
   "height": 400,
   "data": {"url": "https://raw.githubusercontent.com/JohnnyGue/FIT3179/main/DataVisualisation2/data/NBA_players_by_rating.csv"},
   "encoding": {
-    "x": {"field": "rating", "type": "quantitative", "scale": {"domain":[70,99]}},
+    "x": {"field": "rating", "type": "quantitative", "scale": {"domain":[74,99]}},
     "y": {"field": "Salary", "type": "quantitative"}},
     "layer":[{
       "mark": "point",
