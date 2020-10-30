@@ -1,0 +1,24 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "title":[" 10 Heaviest and Lightest NBA Players"],
+  "width": 600,
+  "height": 400,
+  "data": {"url": "https://raw.githubusercontent.com/JohnnyGue/FIT3179/main/DataVisualisation2/data/NBA_by_weight.csv"},
+  "selection": {
+    "grid": {
+      "type": "interval", "bind": "scales"
+    }
+  },
+  "mark": "point",
+  "encoding": {
+    "x": {"field": "weight", "type": "quantitative", "scale": {"domain":[77,132]}},
+    "y": {"field": "rating", "type": "quantitative", "scale":{"domain":[65,99]}}, 
+    "color": {"field": "weight", "type": "quantitative", "scale":{
+      "type": "threshold",
+      "domain": [80,100],
+      "range": ["#87CEFA","#F7DC6F","#F76F6F"]},
+    "legend": null},
+    "tooltip":[{"field": "full_name", "title": "Name "},{"field": "height"},{"field":"weight"},{"field": "rating", "title": "NBA 2K20 Rating"}
+    ]
+  }
+}
