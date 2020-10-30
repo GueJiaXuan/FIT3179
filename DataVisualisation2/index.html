@@ -19,6 +19,9 @@
 
 <div id="isotype_plot"></div> 
   
+<h2> 10 Youngest NBA Players VS 10 Oldest NBA Players </h2>
+  
+<div id="bubble_plot"></div>
 <script type="text/javascript">
   
   var spec2 = "js/choropleth_map_NBA.vl.json";
@@ -30,6 +33,12 @@
   var spec3 = "js/isotype_dot_plot.vl.json"
   
   vegaEmbed('#isotype_plot', spec3).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+  
+  var spec4 = "js/bubble_plot.vl.json"
+  
+  vegaEmbed('#bubble_plot', spec4).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
   
