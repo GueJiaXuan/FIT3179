@@ -17,7 +17,7 @@
  
 <h2> NBA Players with the Highest Salaries </h2>
 
-<div id="scatterplot"></div> 
+<div id="isotype_plot"></div> 
   
 <script type="text/javascript">
   
@@ -27,9 +27,9 @@
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
   
-  var spec3 = "js/scatter_plot_interactive.vg.json"
+  var spec3 = "js/isotype_dot_plot.vl.json"
   
-  vegaEmbed('#scatterplot', spec3).then(function(result) {
+  vegaEmbed('#isotype_plot', spec3).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
   
