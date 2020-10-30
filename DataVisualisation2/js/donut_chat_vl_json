@@ -1,0 +1,28 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "description": "A simple donut chart with embedded data.",
+  "data": {
+    "url": "https://raw.githubusercontent.com/JohnnyGue/FIT3179/main/DataVisualisation2/data/NBA_states_country_position_team.csv"
+  },
+  "transform": [{"filter": "datum.country_count > Country_Count_Filter"}],
+  "params":[
+    {
+      "name": "Country_Count_Filter",
+      "value": 0,
+        "bind":{
+          "input": "range",
+          "min": 1,
+          "max": 322,
+          "step":1,
+          "name": "Filter by number of Players: "
+        }
+    }
+  ],
+  "mark": {"type": "arc", "innerRadius": 50},
+  "encoding": {
+    "theta": {"field": "country_count", "type": "quantitative"},
+    "color": {"field": "country", "type": "nominal", "legend": null},
+    "tooltip":[{"field": "country"}, {"field": "country_count", "title": "Number of NBA Players"}]
+  },
+  "view": {"stroke": null}
+}
