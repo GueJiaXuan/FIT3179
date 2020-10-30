@@ -2,7 +2,11 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
   "config": {"view": {"stroke": ""}},
   "width": 50,
-  "height": 75,
+  "height": 50,
+  "title": {
+    "text": "Top 10 Highest Paid NBA Players",
+    "subtitle": "Each 💰 represents USD 1 Million"
+  },
   "description": "Horizontally concatenated charts that show different types of discretizing scales.",
   "data": {
     "url": "https://raw.githubusercontent.com/JohnnyGue/FIT3179/main/DataVisualisation2/data/NBA_players_by_salary.csv"
@@ -18,8 +22,8 @@
   "encoding": {
     "x": {"field": "rank", "type": "ordinal", "axis": null},
     "y": {"field": "salary_rounded", "type": "nominal", "axis": null, "sort": null},
-    "row": {"field": "full_name", "header": {"title": "Top Earning NBA Players"}},
+    "row": {"field": "full_name", "header": {"title": "Top Earning NBA Players + Average Earning of an NBA Player"}},
     "text": {"field": "emoji", "type": "nominal"},
-    "size": {"value": 10}
+    "size": {"value": 50}
   }
 } 
