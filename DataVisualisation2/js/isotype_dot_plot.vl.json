@@ -24,6 +24,6 @@
     "y": {"field": "salary_rounded", "type": "nominal", "axis": null, "sort": null},
     "row": {"field": "full_name", "header": {"title": "Top Earning NBA Players + Average Earning of an NBA Player"}},
     "text": {"field": "emoji", "type": "nominal"},
-    "size": {"value": 50}
+    "size": {"value": 12}
   }
 } 
