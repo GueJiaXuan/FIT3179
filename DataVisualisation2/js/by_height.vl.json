@@ -1,0 +1,24 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  
+  "width": 600,
+  "height": 400,
+  "data": {"url": "https://raw.githubusercontent.com/JohnnyGue/FIT3179/main/DataVisualisation2/data/NBA_by_height.csv"},
+  "selection": {
+    "grid": {
+      "type": "interval", "bind": "scales"
+    }
+  },
+  "mark": "point",
+  "encoding": {
+    "x": {"field": "height", "type": "quantitative", "scale": {"domain":[1.7,2.3]}},
+    "y": {"field": "rating", "type": "quantitative", "scale":{"domain":[65,99]}}, 
+    "color": {"field": "height", "type": "quantitative", "scale":{
+      "type": "threshold",
+      "domain": [1.9,2.1],
+      "range": ["#87CEFA","#F7DC6F","#F76F6F"]},
+    "legend": null},
+    "tooltip":[{"field": "full_name", "title": "Name "},{"field": "height", "title": "Height (metres)"},{"field":"weight", "title":"Weight (kilograms)"},{"field": "rating", "title": "NBA 2K20 Rating"}
+    ]
+  }
+}
