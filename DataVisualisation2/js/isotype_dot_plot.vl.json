@@ -1,8 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
   "config": {"view": {"stroke": ""}},
-  "width": 100,
-  "height": 50,
+  "width": 50,
+  "height": 75,
   "description": "Horizontally concatenated charts that show different types of discretizing scales.",
   "data": {
     "url": "https://raw.githubusercontent.com/JohnnyGue/FIT3179/main/DataVisualisation2/data/NBA_players_by_salary.csv"
