@@ -1,0 +1,39 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "width": 600,
+  "height": 400,
+  "data": {"url": "https://raw.githubusercontent.com/JohnnyGue/FIT3179/main/DataVisualisation2/data/NBA_players_by_salary.csv"},
+  
+  "encoding": {
+    "x": {"field": "rating", "type": "quantitative", "scale": {"domain":[75,99]}},
+    "y": {"field": "Salary", "type": "quantitative"}},
+    "layer":[{
+      "mark": "point",
+      "encoding": {
+    "color": {"field": "rating", "type": "quantitative", "scale":{
+      "type": "threshold",
+      "domain": [80],
+      "range": ["#F7DC6F","#F76F6F"]},
+    "legend": null},
+    "tooltip":[{"field": "full_name", "title": "Name "},{"field": "Age"},{"field":"Salary", "title": "Salary in USD"},{"field": "rating", "title": "NBA 2K20 Rating"}
+    ]
+  }
+},
+{"mark":{
+  "type": "text",
+  "align":"right",
+  "baseline":"middle",
+  "dx":-12,
+  "font": "arial",
+  "fontSize": 10,
+  "fontStyle":"italic"
+},
+"encoding": {
+  "text":{ "field": "full_name", "type": "nominal"},
+  "color":{"value": "black"},
+    "tooltip":[{"field": "full_name", "title": "Name "},{"field": "Age"},{"field":"Salary", "title": "Salary in USD"},{"field": "rating", "title": "NBA 2K20 Rating"}
+    ]
+  }
+}
+
+]}
