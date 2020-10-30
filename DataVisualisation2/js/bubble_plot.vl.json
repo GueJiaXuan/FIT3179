@@ -1,0 +1,19 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json","width": 400,
+  "height": 400,
+  "description": "A bubbleplot.",
+  "data": {"url": "https://raw.githubusercontent.com/JohnnyGue/FIT3179/main/DataVisualisation2/data/NBA_players_based_on_age.csv"},
+  "mark": "point",
+  "encoding": {
+    "x": {"field": "Age", "type": "quantitative"},
+    "y": {"field": "Salary", "type": "quantitative"},
+    "color": {"field": "Age", "type": "quantitative", "scale":{
+      "type": "threshold",
+      "domain": [21,28],
+      "range": ["#87CEFA","#F7DC6F","#F76F6F"]
+    },
+    "legend": null},
+    "tooltip":[{"field": "full_name", "title": "Name "},{"field": "Age"},{"field":"Salary", "title": "Salary in USD"}
+    ]
+  }
+}
