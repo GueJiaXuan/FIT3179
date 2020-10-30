@@ -19,10 +19,17 @@
 <h2> NBA Players with the Highest Salaries </h2>
 
 <div id="isotype_plot"></div> 
-  
+<div id="by_salary"></div> 
+<div id="by_rating"></div>   
 <h2> 10 Youngest NBA Players VS 10 Oldest NBA Players </h2>
   
 <div id="bubble_plot"></div>
+  
+<h2> Comparison between Weight and Height in the NBA </h2>
+  
+<div id="by_weight"></div> 
+<div id="by_height"></div> 
+  
 <script type="text/javascript">
   
   var spec2 = "js/choropleth_map_NBA.vl.json";
@@ -43,12 +50,35 @@
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
   
-  var spec5 = "js/donur_chart.vl.json"
+  var spec5 = "js/donut_chart.vl.json"
   
   vegaEmbed('#donut_chart', spec5).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
   
+  var spec6 = "js/by_rating.vl.json"
+  
+  vegaEmbed('#by_rating', spec6).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+  
+  var spec7 = "js/by_salary.vl.json"
+  
+  vegaEmbed('#by_salary', spec7).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+  
+  var spec8 = "js/by_height.vl.json"
+  
+  vegaEmbed('#by_height', spec8).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+  
+  var spec9 = "js/by_weight.vl.json"
+  
+  vegaEmbed('#by_weight', spec9).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
 </script>
 </body>
 </html>
