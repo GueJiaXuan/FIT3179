@@ -1,12 +1,12 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
   "title": ["10 Highest Paid NBA Players"],
-  "width": 600,
+  "width": 450,
   "height": 400,
   "data": {"url": "https://raw.githubusercontent.com/JohnnyGue/FIT3179/main/DataVisualisation2/data/NBA_players_by_salary.csv"},
   
   "encoding": {
-    "x": {"field": "rating", "type": "quantitative", "scale": {"domain":[75,99]}},
+    "x": {"field": "rating", "type": "quantitative", "scale": {"domain":[90,99]}},
     "y": {"field": "Salary", "type": "quantitative"}},
     "layer":[{
       "mark": "point",
