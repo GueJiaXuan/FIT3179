@@ -1,8 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
   "title": "Number of Active NBA Players in 2019-2020 season, Grouped by Countries",
-  "width": 800,
-  "height": 600,
+  "width": 500,
+  "height": 400,
   "layer" :[
     {
     "data": {
