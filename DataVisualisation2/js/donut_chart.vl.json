@@ -25,7 +25,7 @@
   "mark": {"type": "arc", "innerRadius": 50},
   "encoding": {
     "theta": {"field": "country_count", "type": "quantitative"},
-    "color": {"field": "country", "type": "nominal", "legend": null}
+    "color": {"field": "country", "type": "nominal"}
      ,
     "tooltip":[{"field": "country"}, {"field": "country_count", "title": "Number of NBA Players"}]
   },
