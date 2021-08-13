@@ -7,7 +7,7 @@
     "NBA Players from different countries, represented in a donut chart"
   ],
   "data": {
-    "url": "https://raw.githubusercontent.com/GueJiaXuan/FIT3179/main/DataVisualisation2/data/NBA_states_country_position_team.csv"
+    "url": "https://raw.githubusercontent.com/GueJiaXuan/NBA-Infographic/main/data/NBA_states_country_position_team.csv"
   },
   "transform": [{"filter": "datum.country_count > Country_Count_Filter"}],
   "params": [
