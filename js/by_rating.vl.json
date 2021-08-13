@@ -4,7 +4,7 @@
   "width": 400,
   "height": 400,
   "data": {
-    "url": "https://raw.githubusercontent.com/GueJiaXuan/FIT3179/main/DataVisualisation2/data/NBA_players_by_rating.csv"
+    "url": "https://raw.githubusercontent.com/GueJiaXuan/NBA-Infographic/main/data/NBA_players_by_rating.csv"
   },
   "encoding": {
     "x": {
