@@ -7,50 +7,15 @@
 ***
 ***
 *** To avoid retyping too much info. Do a search and replace for the following:
-*** GueJiaXuan, NBA-Infographic, jguejx@gmail.com, Facts about NBA Players during the 2019-2020 Season, A Date Visualisation showcasing the talent and beauty of the NBA in the 74th Season
+*** GueJiaXuan, NBA-Infographic, , jguejx@gmail.com, Facts about NBA Players during the 2019-2020 Season, A Date Visualisation showcasing the talent and beauty of the NBA in the 74th Season
 -->
 
 
 
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
 
 
 
-<!-- PROJECT LOGO -->
-<br />
-<p align="center">
-  <a href="https://github.com/GueJiaXuan/NBA-Infographic">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
 
-  <h3 align="center">Facts about NBA Players during the 2019-2020 Season</h3>
-
-  <p align="center">
-    A Date Visualisation showcasing the talent and beauty of the NBA in the 74th Season
-    <br />
-    <a href="https://github.com/GueJiaXuan/NBA-Infographic"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/GueJiaXuan/NBA-Infographic">View Demo</a>
-    ·
-    <a href="https://github.com/GueJiaXuan/NBA-Infographic/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/GueJiaXuan/NBA-Infographic/issues">Request Feature</a>
-  </p>
-</p>
 
 
 
@@ -85,114 +50,37 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`GueJiaXuan`, `NBA-Infographic`, ``, `jguejx@gmail.com`, `Facts about NBA Players during the 2019-2020 Season`, `A Date Visualisation showcasing the talent and beauty of the NBA in the 74th Season`
+
+
+This is an infographic showcasing data regarding the beauty and the talent the 74th season of NBA. 
 
 
 ### Built With
 
-* []()
-* []()
-* []()
+* []() Vegalite
+* []() JavaScript
+
 
 
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-To get a local copy up and running follow these simple steps.
-
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
-### Installation
-
-1. Clone the repo
-   ```sh
-   git clone https://github.com/GueJiaXuan/NBA-Infographic.git
-   ```
-2. Install NPM packages
-   ```sh
-   npm install
-   ```
+To preview the infograpic, click this link here: [https://guejiaxuan.github.io/NBA-Infographic/index.html](https://guejiaxuan.github.io/NBA-Infographic/index.html)
 
 
 
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
 
 
 
-<!-- ROADMAP -->
-## Roadmap
 
-See the [open issues](https://github.com/GueJiaXuan/NBA-Infographic/issues) for a list of proposed features (and known issues).
-
-
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
 
 
 
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@](https://twitter.com/) - jguejx@gmail.com
+Gue Jia Xuan - jguejx@gmail.com
 
 Project Link: [https://github.com/GueJiaXuan/NBA-Infographic](https://github.com/GueJiaXuan/NBA-Infographic)
-
-
-
-<!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
-
-* []()
-* []()
-* []()
-
-
-
-
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/GueJiaXuan/repo.svg?style=for-the-badge
-[contributors-url]: https://github.com/GueJiaXuan/NBA-Infographic/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/GueJiaXuan/repo.svg?style=for-the-badge
-[forks-url]: https://github.com/GueJiaXuan/NBA-Infographic/network/members
-[stars-shield]: https://img.shields.io/github/stars/GueJiaXuan/repo.svg?style=for-the-badge
-[stars-url]: https://github.com/GueJiaXuan/NBA-Infographic/stargazers
-[issues-shield]: https://img.shields.io/github/issues/GueJiaXuan/repo.svg?style=for-the-badge
-[issues-url]: https://github.com/GueJiaXuan/NBA-Infographic/issues
-[license-shield]: https://img.shields.io/github/license/GueJiaXuan/repo.svg?style=for-the-badge
-[license-url]: https://github.com/GueJiaXuan/NBA-Infographic/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/GueJiaXuan
