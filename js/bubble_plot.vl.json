@@ -2,7 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json","width": 400,
   "height": 400,
   "description": "A bubbleplot.",
-  "data": {"url": "https://raw.githubusercontent.com/JohnnyGue/FIT3179/main/DataVisualisation2/data/NBA_players_based_on_age.csv"},
+  "data": {"url": "https://raw.githubusercontent.com/GueJiaXuan/FIT3179/main/DataVisualisation2/data/NBA_players_based_on_age.csv"},
   "mark": "point",
   "encoding": {
     "x": {"field": "Age", "type": "quantitative"},
