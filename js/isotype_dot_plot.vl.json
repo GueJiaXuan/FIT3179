@@ -9,7 +9,7 @@
   },
   "description": "Horizontally concatenated charts that show different types of discretizing scales.",
   "data": {
-    "url": "https://raw.githubusercontent.com/JohnnyGue/FIT3179/main/DataVisualisation2/data/NBA_players_by_salary.csv"
+    "url": "https://raw.githubusercontent.com/GueJiaXuan/NBA-Infographic/main/data/NBA_players_by_salary.csv"
   },
   "transform": [
     {
@@ -38,10 +38,9 @@
     },
     "text": {"field": "emoji", "type": "nominal"},
     "size": {"value": 20},
-    "tooltip":[
+    "tooltip": [
       {"field": "full_name", "title": "Name of NBA Player"},
-      {"field": "salary_rounded", "title":"Salary (in Millions)"}
+      {"field": "salary_rounded", "title": "Salary (in Millions)"}
     ]
-
   }
 }
